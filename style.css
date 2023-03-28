@@ -260,3 +260,26 @@ div.info section.trend-list>article {
   display: flex;
   gap: 8px;
 }
+
+@media (max-width: 1100px) {
+  div.wrapper {
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 250px 1fr;
+  }
+
+  header {
+    padding: 24px 32px;
+  }
+
+  div.greet {
+    display: none;
+  }
+
+  div.bottom-header button:first-of-type {
+    margin-left: 32px;
+  }
+
+  div.sidebar-wrapper {
+    padding: 2rem 1rem;
+  }
+}
